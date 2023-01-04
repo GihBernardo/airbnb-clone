@@ -16,7 +16,8 @@ header{
 
     height: 80px;
     position: fixed;
-    width: 80%;
+    width: 100%;
+    right: 0;
     top: 0;
     padding: 0;
     margin: 0;
@@ -32,25 +33,26 @@ header{
 .simb-air{
     width: 40px;
     display: block;
+    margin-left: 300px;
 }
 
 h2{
     font-size: 16px;
     padding-top: 15px;
     position: absolute;
-    right: 350px;
+    right: 600px;
 }
 
 .button{
     background-color: rgb(230, 30, 77);
     height: 50px;
-    width: 300px;
+    width: 280px;
     border: 5px;
     border-radius: 8px;
     display: flex;
     align-items: center;
     position: absolute;
-    right: 20px;
+    right: 300px;
 }
 
 h3{
@@ -66,7 +68,7 @@ h3{
 .house{
     width: 25px;
     position: absolute;
-    left: 30px;
+    left: 20px;
 }
 
 .container2{
@@ -302,17 +304,16 @@ h6{
 
 .container5{
     background-color: #F7F7F7;
-    width: 100%;
+    height: 1000px;
     margin-top: 100px;
+    position: relative;
 }
 
 .questions{
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
-    height: 1000px;
     padding-top: 80px;
-    position: relative;
 }
 
 .ask{
@@ -321,26 +322,39 @@ h6{
     display: inline-block;
     left: 0px;
     padding-left: 100px;
-    height: 400px;
+    height: 650px;
     margin-bottom: 80px;
+    position: relative;
 }
 
 .answers{
     display: inline-block;
     position: absolute;
-    max-width: 50%;
-    padding-right: 100px;
-    right: 0px;
+    height: auto;
+    width: 620px;
+    right: 250px;
+    margin-bottom: 50px;
 }
 
-.arrow-down{
-    display: inline-block;
-    position: absolute;
-    left: 600px;
+.comp1{
+    color: #221f1f;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+summary{
+    list-style: none;
+    background-image: url(./images/seta-para-baixo.png);
+    background-repeat: no-repeat;
+    background-position: 600px;
+    
+
 }
 
 #linha2{
-    width: 110%;
+    width: 100%;
     border: 1px solid rgb(146, 142, 142);
     margin-top: 10px;
     margin-bottom: 30px;
@@ -349,21 +363,136 @@ h6{
 }
 
 .doubt{
-    max-width: 90%;
+    width: 1300px !important;
     height: 344px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-color: white;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 15px;
+    position: absolute;
+    right: 60px;
 }
 
 .people2{
     width: 600px;
     display: inline-block;
     border-radius: 15px;
+    position: relative;
+}
+
+.quest{
+    position: absolute;
+    top: 80px;
+    right: 150px;
+    max-width: 50%;
 }
 
 .have-quest{
-    display: inline-block;
+    display: block;
     text-align: center;
+}
+
+.have-quest2{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #696969;
+}
+
+.have-quest3{
+    font-size: 14px;
+    line-height: 20px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    justify-content: center;
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#linha3{
+    width: 100%;
+    border: 1px solid rgb(146, 142, 142);
+}
+
+footer{
+    background-color: #F7F7F7;
+    height: 400px;
+}
+
+.ft{
+    max-width: 80%;
+    padding-top: 30px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.attendance{
+    display: inline-block;
+    max-width: 25%;
+    position: relative;
+    margin-right: 100px;
+    margin-left: 130px;
+}
+
+.community{
+    display: inline-block;  
+    max-width: 25%;
+    position: relative;
+    bottom: 144px;
+    margin-right: 100px;
+}
+
+.accommodation{
+    display: inline-block;  
+    max-width: 25%; 
+    position: relative;
+    bottom: 36px;
+    margin-right: 100px;
+}
+
+.airbnb{
+    display: inline-block;
+    max-width: 25%;
+    position: relative;
+    bottom: 36px;
+}
+
+#linha4{
+    width: 100%;
+    border: 1px solid rgb(146, 142, 142);
+    margin-top: 30px;
+}
+
+.info{
+    padding: 20px;
+    width: 1490px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.op{
+    margin-right: 10px;
+    font-weight: 100;
+}
+
+.op1{
+    margin-right: 550px;
+    font-weight: 100;
+}
+
+.op2{
+    margin-right: 30px;
+    font-weight: 100;
+}
+
+.op3{
+    margin-right: 30px;
+    font-weight: 100;
 }
