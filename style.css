@@ -304,9 +304,9 @@ h6{
 
 .container5{
     background-color: #F7F7F7;
-    height: 1000px;
     margin-top: 100px;
     position: relative;
+    padding-bottom: 30px;
 }
 
 .questions{
@@ -319,21 +319,17 @@ h6{
 .ask{
     text-align: left;
     max-width: 50%;
-    display: inline-block;
-    left: 0px;
-    padding-left: 100px;
-    height: 650px;
-    margin-bottom: 80px;
-    position: relative;
+    float: left;
+    margin-left: 100px;
 }
 
 .answers{
     display: inline-block;
-    position: absolute;
-    height: auto;
     width: 620px;
     right: 250px;
     margin-bottom: 50px;
+    margin-left: 300px;
+    
 }
 
 .comp1{
@@ -363,28 +359,29 @@ summary{
 }
 
 .doubt{
-    width: 1300px !important;
     height: 344px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: white;
     border-radius: 15px;
-    position: absolute;
     right: 60px;
+}
+
+.image{
+    float: left;
 }
 
 .people2{
     width: 600px;
-    display: inline-block;
     border-radius: 15px;
-    position: relative;
 }
 
 .quest{
-    position: absolute;
-    top: 80px;
-    right: 150px;
-    max-width: 50%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 .have-quest{
@@ -407,10 +404,9 @@ summary{
     background-color: white;
     border: 1px solid black;
     outline: none;
-    justify-content: center;
     width: 250px;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
 }
 
 #linha3{
